@@ -7,14 +7,8 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Related Work](#related-work)
 - [Methodology](#methodology)
-- [Experiments & Results](#experiments--results)
-- [Discussion](#discussion)
-- [Ethical Considerations](#ethical-considerations)
-- [Conclusion](#conclusion)
 - [Installation](#installation)
-- [References](#references)
 
 ## Introduction
 ### Problem Statement
