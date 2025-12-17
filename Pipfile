@@ -4,12 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+seaborn = "*"
 kagglehub = "*"
-numpy = "*"
 tensorflow = "*"
 matplotlib = "*"
+numpy = "*"
 scikit-learn = "*"
-seaborn = "*"
+pillow = "*"
 
 [dev-packages]
 
