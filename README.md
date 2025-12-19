@@ -1,8 +1,8 @@
 # Garbage Classification Using EfficientNetB0 (Deep Computer Vision Project)
-**CSC173 Intelligent Systems Final Project**  
-*Mindanao State University - Iligan Institute of Technology*  
-**Student:** [Chriscent Louis June M. Pingol], [2022-0362]
-**Semester:** [AY 2025-2026 Sem 1]
+**CSC173 Intelligent Systems Final Project** <br />
+*Mindanao State University - Iligan Institute of Technology* <br />
+**Student:** [Chriscent Louis June M. Pingol], [2022-0362] <br />
+**Semester:** [AY 2025-2026 Sem 1] <br />
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://python.org) [![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)](https://pytorch.org)
 
 ## Abstract
@@ -104,16 +104,22 @@ class_weights = compute_class_weight(class_weight='balanced', ...)
 ### Metrics
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
-| Cardboard | 0.96 | 0.94 | 0.95 | 81 |
-| Glass | 0.88 | 0.85 | 0.86 | 101 |
-| Metal | 0.89 | 0.91 | 0.90 | 82 |
-| Paper | 0.93 | 0.92 | 0.92 | 119 |
-| Plastic | 0.85 | 0.88 | 0.86 | 97 |
-| Trash | 0.82 | 0.78 | 0.80 | 27 |
-| **Accuracy** | | | **90%** | 507 |
+| **Cardboard** | 1.00 | 0.96 | 0.98 | 81 |
+| **Glass** | 0.97 | 0.90 | 0.93 | 100 |
+| **Metal** | 0.87 | 0.98 | 0.92 | 82 |
+| **Paper** | 0.95 | 0.97 | 0.96 | 119 |
+| **Plastic** | 0.95 | 0.94 | 0.94 | 97 |
+| **Trash** | 0.88 | 0.81 | 0.85 | 27 |
+|  |  |  |  |  |
+| **Accuracy** |  |  | **0.94** | 506 |
+| **Macro Avg** | 0.94 | 0.93 | 0.93 | 506 |
+| **Weighted Avg** | 0.94 | 0.94 | 0.94 | 506 |
 
 ### Demo
 The project includes a real-time webcam application (`video_identify.py`) and a static image analysis tool (`picture_identify.py`).
+
+#### Youtube Demonstration
+[![Garbage Classification Using EfficientNetB0 | CSC173](src/demo_video.png)](https://youtu.be/NoSIP3lsQLA))  
 
 #### Screenshots
 
