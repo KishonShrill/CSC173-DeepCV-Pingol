@@ -11,6 +11,7 @@ matplotlib = "*"
 numpy = "*"
 scikit-learn = "*"
 pillow = "*"
+opencv-python = "*"
 
 [dev-packages]
 

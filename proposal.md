@@ -3,7 +3,7 @@
 **Date:** [December 11, 2025]
 
 ## 1. Project Title 
-Deep Learning–Based Garbage Classification Using ResNet50
+Deep Learning–Based Garbage Classification Using EfficientNetB0
 
 ## 2. Problem Statement
 Improper waste segregation is a persistent issue in many Philippine cities, including communities around Iligan and Mindanao State University–IIT. Manual sorting is time-consuming and prone to human error, which contributes to environmental degradation and inefficient recycling processes. This project aims to build an automated image-based garbage classification system using deep convolutional neural networks. By accurately identifying waste types from images, the system can support future smart recycling bins and local waste-management initiatives.
